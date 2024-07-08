@@ -1,0 +1,43 @@
+First, we need to install This application [Jira Spoke].
+Navigate > Applications/Plugin > Jira Spoke
+
+Next step is, we need to make credentials to connect with Jira.
+Now Create new Credentials and First we need to create new Jira API Token because that API we can use as a password when making new Credentials.
+
+Now we need to make a connection [I am creating HTTPs Connection].
+ 
+We need to Fill all these details: -
+Name
+Credential
+Connection alias
+Connection URL
+Now Submit it.
+
+4.	Now next we need to look at the credentials and connections.
+ 
+Now we move to Flow Designer
+Create New
+Name: - Jira Test Integration HUB
+ 
+Add Trigger: -
+ 
+Add Action: -
+Fill this fields: -
+Action
+Project ID
+Issue Type ID
+Summary
+Description
+Priority
+Now Add New action to update record.
+
+Now need to check the connection, create a new record and check the execution.
+
+ 
+
+ 
+
+
+
+
+
